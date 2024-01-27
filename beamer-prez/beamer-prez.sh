@@ -22,8 +22,8 @@ cat > main.tex << EOF
 \usepackage{beamerfoils}
 \usepackage[czech]{babel}
 
-\usefonttheme{structurebold}
 \usetheme{AnnArbor}
+\usefonttheme{structurebold}
 \usecolortheme{crane}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{headline}{}
