@@ -81,6 +81,7 @@ flask run --debug
 
 - choosing the `--debug` option makes changes to files update while Flask is running
 - the app can be accessed at [localhost:5000](http://127.0.0.1:5000) by default
+- runnig [flask.sh](https://github.com/tweetlol/scriptorium/blob/main/flask-app-deployment/flask.sh) script will also prepare following html template files
 
 ## html templates
 
