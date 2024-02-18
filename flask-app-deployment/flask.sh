@@ -30,7 +30,8 @@ def index():
 " > app/routes.py
 
 # MAKE APP/TEMPLATES/INDEX.HTML FILE
-mkdir -p app/templates;
+mkdir -p app/templates
+
 echo '
 <!doctype html>
 <html>

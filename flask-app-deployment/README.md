@@ -31,7 +31,7 @@ pip install flask
 - create a directory for a package and the \_\_init\_\_.py file:
 
 ```sh
-mkdir app
+mkdir app;
 echo "
 from flask import Flask
 
