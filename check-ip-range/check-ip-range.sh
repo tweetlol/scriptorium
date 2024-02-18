@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # IPs
-## find available render machines at subnet
+## find available machines at subnet
 subnet="192.168.56"
 ## expected range of host machines
 hosts=$(seq 11 13)
@@ -21,5 +21,3 @@ for host in $hosts; do
 	fi
 done
 
-# print all reachable IPs from array
-echo "List of reachable IPs: ${reachable[@]}"
