@@ -5,7 +5,7 @@ async def hello(websocket):
     incoming_payload = await websocket.recv()
     print(f">>> CLIENT: {incoming_payload}")
 
-    response = f"GENERAL KENOBI, length of your message is {len(incoming_payload)}"
+    response = f"GENERAL KENOBI, length of your message is {len(incoming_payload)} characters."
 
     await websocket.send(response)
     print(f"<<< SERVER: {response}")
